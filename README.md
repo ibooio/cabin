@@ -1,2 +1,2 @@
 # cabin
-Sitio web de Cabin
+Sitio web del CABIN
