@@ -71,39 +71,6 @@
 	background-color: #12356b !important;
 }
 
-.light-blue{
-	color: #3D9DF2 !important;
-}
-
-.bg-light-blue{
-	background-color: #3D9DF2 !important;
-}
-
-.green{
-	color: #45bf6f  !important;
-}
-
-.bg-green{
-	background-color: #45bf6f  !important;
-}
-
-.red{
-	color: #c12a2a !important;
-}
-
-.bg-red{
-	background-color: #c12a2a !important;
-}
-
-.black-blue{
-	color: #1f2231 !important;
-}
-
-.bg-black-blue{
-	background-color: #1f2231 !important;
-}
-
-
 html, body{
 	margin: 0;
 	padding: 0;
@@ -192,7 +159,7 @@ header{
 	-o-background-size: cover;
 	background-size: cover;
 	position: relative;
-
+	border-bottom: 1px solid #393e39;
 }
 
 #bg > .override{
@@ -214,11 +181,26 @@ header{
 	top: 35%;
 }
 
+#us{
+	border-bottom: 1px solid #393e39;
+}
 
+.entity{
+	padding-top: 1.5em !important;
+}
+
+.entity img{
+	max-width: 100%;
+	height: 80px;
+}
+
+#services{
+	background-color: #45bf6f  !important;
+}
 
 .service{
-	background-color: #344835;
-	border-bottom: 2px solid #dadada;
+	background-color: #393e39;
+	border-bottom: 1px solid #393e39;
 }
 
 .service-title{
@@ -230,7 +212,8 @@ header{
 }
 
 .service-description{
-	background-color: #14887D;
+	background-color: #cedad9;
+	color: #000;
 	min-height: 150px !important;
 }
 
@@ -240,6 +223,10 @@ header{
 
 .service .col{
 	padding: 1em !important;
+}
+
+#turns{
+	background-color: #676f59
 }
 
 
@@ -261,13 +248,8 @@ header{
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
-.entity{
-	padding-top: 1.5em !important;
-}
-
-.entity img{
-	max-width: 100%;
-	height: 80px;
+footer{
+	background-color: #393e39;
 }
 
 #form_contact{
@@ -280,7 +262,7 @@ header{
 }
 
 #form_contact .btn{
-	padding: .5em 3em;
+	padding: .5em 4em;
 	height: 3em;
 	font-weight: bold;
 	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
@@ -289,23 +271,17 @@ header{
 }
 
 #form_contact input, #form_contact textarea{
-	border-bottom: 1px solid #111 !important;
-}
-#contact-list li{
-	font-size: 1.2em;
-	color: #ccc;
-	font-family: Roboto;
-	font-weight: bold;
+	border-bottom: 1px solid #666 !important;
 }
 
-#contact-list li i{
-	color: #aaa;
-	font-size: .9em;
+#form_contact textarea{
+	min-height: 117px;
 }
 
 .footer-copyright{
 	width: 80% !important;
 	max-width:800px !important;
 	margin: 0 auto;
-	border-top: 2px solid #23344e;
+	padding-top: 1em;
+	border-top: 2px solid #444;
 }

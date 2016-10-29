@@ -39,6 +39,15 @@ $(document).ready(function(){
   $('.menu-item').on('click', function() {
     scrollTo($(this).data('target'));
   });
+
+  $('#map').click(function () {
+    $('#map iframe').css('pointer-events', 'auto');
+  });
+
+  $('#map' ).mouseleave(function() {
+    $('#map iframe').css('pointer-events', 'none');
+  });
+
 });
 
 
