@@ -71,10 +71,10 @@
     </header>
     <div id="bg">
       <div class="override">
-      </div>
-      <div class="center">
-        <h4 class="text">Centro de Aplicaciones Bionucleares</h4>
-        <h6 class="text text-min"><b>Comodoro Rivadavia</b></h6>
+        <div class="container center">
+          <h4 class="text">Centro de Aplicaciones Bionucleares</h4>
+          <h6 class="text text-min"><b>Comodoro Rivadavia</b></h6>
+        </div>
       </div>
     </div>
     <div id="full-wrapper">
