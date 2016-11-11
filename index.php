@@ -160,7 +160,7 @@
       <section id="services" class="white-text">
         <div class="container">
           <div class="title">NUESTROS SERVICIOS</div>
-          <div class="row service wow bounceIn" data-wow-duration="2s">
+          <div class="row service wow bounceIn" data-wow-duration="4s">
             <div class="col s12 m8 l8 service-description">
               <div class="service-title">RADIOTERAPIA</div>
               <div class="service-content">
@@ -178,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="row service wow bounceIn" data-wow-duration="2s">
+          <div class="row service wow bounceIn" data-wow-duration="4s">
             <div class="col s12 m8 l8 service-description">
               <div class="service-title">MEDICINA NUCLEAR</div>
               <div class="service-content">
@@ -196,7 +196,7 @@
               </div>
             </div>
           </div>
-          <div class="row service wow bounceIn" data-wow-duration="2s">
+          <div class="row service wow bounceIn" data-wow-duration="4s">
             <div class="col s12 m8 l8 service-description">
               <div class="service-title">ONCOLOGÍA</div>
               <div class="service-content">
@@ -215,7 +215,7 @@
               </div>
             </div>
           </div>
-          <div class="row service wow bounceIn" data-wow-duration="2s">
+          <div class="row service wow bounceIn" data-wow-duration="4s">
             <div class="col s12 m8 l8 service-description">
               <div class="service-title">LABORATORIO</div>
               <div class="service-content">
@@ -237,43 +237,43 @@
       <section id="turns" class="white-text">
         <div class="container">
           <div class="title" data-wow-duration="1s">TURNOS</div>
-          <p class="center">Solicitá tu turno y nos comunicaremos con usted a la brevedad</p>
+          <p class="center">Solicite su turno y nos comunicaremos con usted a la brevedad</p>
           <div class="row">
             <form id="form_turn" class="col s12">
               <div class="row">
                 <div class="input-field col s12 m12 l8">
                   <label for="full_name">NOMBRE Y APELLIDO</label>
-                  <input id="full_name" name="full_name" type="text" class="validate">
+                  <input id="full_name" name="full_name" type="text" class="validate" required>
                 </div>
                 <div class="input-field col s12 m12 l4">
                   <label for="dni">DNI</label>
-                  <input id="dni" name="dni" type="number" class="validate">
+                  <input id="dni" name="dni" type="number" class="validate" required>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12 m12 l8">
                   <label for="secure">OBRA SOCIAL</label>
-                  <input id="secure" name="secure" type="text" class="validate">
+                  <input id="secure" name="secure" type="text" class="validate" required>
                 </div>
                 <div class="input-field col s12 m12 l4">
                   <label for="age">EDAD</label>
-                  <input id="age" name="age" type="number" class="validate">
+                  <input id="age" name="age" type="number" class="validate" required>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12 m12 l6">
                   <label for="telephone">TELÉFONO</label>
-                  <input id="telephone" name="telephone" type="number" class="validate">
+                  <input id="telephone" name="telephone" type="number" class="validate" required>
                 </div>
                 <div class="input-field col s12 m12 l6">
                   <label for="email">E-MAIL</label>
-                  <input id="email" name="email" type="email" class="validate">
+                  <input id="email" name="email" type="email" class="validate" required>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12 m12 l8">
                   <label for="description">DESCRIPCIÓN</label>
-                  <textarea id="description" name="description" class="materialize-textarea"></textarea>
+                  <textarea id="description" name="description" class="materialize-textarea" required></textarea>
                 </div>
               </div>
               <div class="row center">
@@ -308,17 +308,17 @@
             <div class="row">
               <div class="col l6 m6 s12">
                 <div class="row input-field">
-                  <label for="contact_name">TU NOMBRE</label><br>
-                  <input id="contact_name" name="contact_name" type="text" class="validate">
+                  <label for="contact_name">SU NOMBRE</label><br>
+                  <input id="contact_name" name="contact_name" type="text" class="validate" required>
                 </div>
                 <div class="row input-field">
-                  <label for="contact_email">TU E-MAIL</label><br>
-                  <input id="contact_email" name="contact_email" type="email" class="validate">
+                  <label for="contact_email">SU E-MAIL</label><br>
+                  <input id="contact_email" name="contact_email" type="email" class="validate" required>
                 </div>
               </div>
               <div class="input-field col l6 m6 s12">
-                <label for="contact_message">TU MENSAJE</label><br>
-                <textarea id="contact_message" name="contact_message" class="materialize-textarea"></textarea>
+                <label for="contact_message">SU MENSAJE</label><br>
+                <textarea id="contact_message" name="contact_message" class="materialize-textarea" required></textarea>
               </div>
             </div>
             <div class="row center">

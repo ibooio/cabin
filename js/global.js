@@ -5,6 +5,14 @@ function removePreloader(){
   $('#preloader').remove();
 }
 
+function addPreloader(){
+  $('html').append('<div id="preloader">');
+  var logo= $('<div class="logo">').appendTo('#preloader');
+  $('#preloader').append('<div class="loading">');
+  $(logo).css('margin-top', ($(window).height()-$(logo).height())/2);
+}
+
+
 $(window).on("load", function() {
   removePreloader();
 });
@@ -49,12 +57,3 @@ $(document).ready(function(){
   });
 
 });
-
-
-
-function addPreloader(){
-  $('html').append('<div id="preloader">');
-  var logo= $('<div class="logo">').appendTo('#preloader');
-  $('#preloader').append('<div class="loading">');
-  $(logo).css('margin-top', ($(window).height()-$(logo).height())/2);
-}
