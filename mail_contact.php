@@ -13,8 +13,8 @@
         }
 
         // Set the recipient email address.
-        $recipient = "turnoscabin@mail.com";
-
+        //$recipient = "turnoscabin@comodoro.coop";
+        $recipient = "alangabrielmoreno@gmail.com";
         // Set the email subject.
         $subject = "Contacto desde la web";
 

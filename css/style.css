@@ -193,6 +193,14 @@ header{
 	height: 80px;
 }
 
+#full-history:hover{
+	cursor: pointer;
+}
+
+#history-hidden{
+	display: none;
+}
+
 #direction{
 	background-color: #393e39;
 }
@@ -243,16 +251,16 @@ header{
 	background-color: #676f59
 }
 
-#form_turn{
+#turn-form{
 	color: #fff;
 }
 
-#form_turn label{
+#turn-form label{
 	color: #eee;
 	font-weight: bold;
 }
 
-#form_turn .btn{
+#turn-form .btn{
 	padding: .5em 3em;
 	height: 3em;
 	font-weight: bold;
@@ -265,16 +273,16 @@ footer{
 	background-color: #393e39;
 }
 
-#form_contact{
+#contact-form{
 	color: #fff;
 }
 
-#form_contact label{
+#contact-form label{
 	color: #ddd;
 	font-weight: bold;
 }
 
-#form_contact .btn{
+#contact-form .btn{
 	padding: .5em 4em;
 	height: 3em;
 	font-weight: bold;
@@ -283,11 +291,11 @@ footer{
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
-#form_contact input, #form_contact textarea{
+#contact-form input, #contact-form textarea{
 	border-bottom: 1px solid #666 !important;
 }
 
-#form_contact textarea{
+#contact-form textarea{
 	min-height: 117px;
 }
 
